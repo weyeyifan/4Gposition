@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="30dp"
+              android:minHeight="30dp"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_cellnum"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:text="B38"
+        />
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="可用"
+        />
+    <TextView
+        android:id="@+id/tv_sync"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="失步"
+        />
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="否"
+        />
+</LinearLayout>

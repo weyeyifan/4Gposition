@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lightblue</item>
+        <item name="colorPrimaryDark">@color/lightblue</item>
+        <item name="colorAccent">@color/lightblue</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/lightblue</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="android:unselectedAlpha">0.8</item>
+    </style>
+
+</resources>
+

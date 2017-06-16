@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="40dp"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/cellnum"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="B1"/>
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="0"/>
+    <TextView
+        android:id="@+id/waveratio"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="0"/>
+    <TextView
+        android:id="@+id/power"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:text="0"/>
+
+</LinearLayout>

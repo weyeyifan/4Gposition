@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:minHeight="50dp"
+              android:orientation="vertical"
+              android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="编号:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IMSI:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/imsi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="46000000000000"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="时间:"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="2017/3/16 10:20:42"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="场强:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/rsrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="频点:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/freq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="48913"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="时延:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="BBU编号:"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/bbu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B39"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

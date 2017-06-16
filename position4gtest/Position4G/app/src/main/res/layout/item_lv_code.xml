@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:minHeight="30dp"
+              android:orientation="horizontal"
+              android:padding="3dp"
+    >
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/imsi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="460000000000000"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:layout_marginLeft="3dp"
+        />
+
+    <TextView
+        android:id="@+id/operator"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="未知运营商"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/qcellcore"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="广东广州"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/bbu"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="B39"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:text="2017/3/16 10:20:42"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+</LinearLayout>
